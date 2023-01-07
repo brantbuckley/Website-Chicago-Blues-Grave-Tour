@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Muddy Waters</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,
+		initial-scale=1.0">
+		<link rel="stylesheet" href="../css/gravestones.css">
+			<script>
+				function fadeInImage() {
+					this.style.transition = "opacity 5s";
+					this.style.opacity = "1";
+				}
+			</script>
+	</head>
+	<body>
+		<main>
+			<h1>Muddy Waters</h1>
+			<div>
+				<img src="../images/muddygrave.jpg">
+				<p>McKinley Morganfield, known as Muddy Waters, was born April 4th, 1913 in Issaquena County, Mississippi. 
+				Recognized for his searing electric slide guitar work and powerful expressive vocals, Muddy may be the most 
+				important Chicago Bluesman of all time. He created, shaped, and molded Electric Blues. He is the man who 
+				literally invented musical electricity, meaning, he took Southern Delta Acoustic Country Blues and electrified 
+				and amplified it in a brand new and revolutionary way. In Muddy’s words, “I think I’m responsible for Chicago’s 
+				Blues. I think I’m the man that set Chicago up for the real Blues.” Also, Muddy was one of the rare Bluesmen who
+				had chart topping hit songs and a collection of well-known tunes. “I’m Your Hoochie Coochie Man”, “I’m Ready”, 
+				“Honey Bee”, “Just Make Love To Me”, “Mannish Boy”, “Long Distance Call”, “Louisiana Blues”, “Got My Mojo Working”, 
+				and “Rollin’ Stone” all made the Billboard Rhythm & Blues charts and were played heavily on the radio. The late 
+				1940’s and 1950’s (1948-1958) was Muddy’s time. He was on fire during this time period and he single handedly raised 
+				the price on records in Chicago. “They were selling records then for seventy-nine cents, something like that. They 
+				went up to dollar ten. I raised the price on it.” The Rolling Stones, Eric Clapton, Led Zeppelin, and all other groups 
+				blasting out of the British Invasion owe a huge thanks and exist because of Muddy Waters. The Rolling Stones Mick Jagger 
+				and Keith Richards named their band after Muddy’s song “Rollin’ Stone.” Muddy Waters died from cardiorespiratory arrest 
+				and carcinoma of the lungs on April 30, 1983 at his home in Westmont, IL. He is buried at Restvale Cemetery in Alsip, IL. 
+				Muddy Waters remains one of the most important musicians of the twentieth century.  
+				</p>
+			</div>
+			<div id="center">	
+				<a href="jimmyrogers.html" class="button">Continue</a>
+			</div>
+			<script>
+				const images = document.getElementsByTagName("img");
+				for (let image of images) {
+					image.addEventListener("load", fadeInImage);
+					image.style.opacity = "0";
+				}
+			</script>
+		</main>
+	</body>
+</html>

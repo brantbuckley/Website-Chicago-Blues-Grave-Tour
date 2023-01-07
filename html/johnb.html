@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>John Belushi</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,
+		initial-scale=1.0">
+		<link rel="stylesheet" href="../css/gravestones.css">
+			<script>
+				function fadeInImage() {
+					this.style.transition = "opacity 5s";
+					this.style.opacity = "1";
+				}
+				function tourComplete() {
+					alert("Thank you for finishing Flowers For Chicago Blues: A Grave Tour. To restart the tour, please click below:");
+				}
+			</script>
+	</head>
+	<body>
+		<main>
+			<h1>John Belushi</h1>
+			<div>
+				<img src="../images/johngrave.jpg">
+				<img src="../images/johngrave2.jpg">
+				<p>John Belushi was born January 24th, 1949 in Chicago, Illinois. An entertainer, actor, musician, and 
+				comedian he created The Blues Brothers with Dan Aykroyd. The duo developed their act on NBC’s Saturday Night 
+				Live. Their debut album, Briefcase Full of Blues with Atlantic Records, sold three and a half million records 
+				making it the highest selling Blues album of all time. The Blues Brothers movie brought Chicago and Blues music 
+				to the forefront in a new never before seen way and ignited and resurrected the dormant careers of John Lee 
+				Hooker, James Brown, Ray Charles, and Aretha Franklin. In 1975, he received his big break after being casted in 
+				NBC’s Saturday Night. Aykroyd was a Blues music inspiration for Belushi as Dan developed his musical career at Le 
+				Hibou Coffee House in Ottawa, Canada and saw Muddy Waters (he played drums behind him once), Otis Spann, Howlin’ Wolf, 
+				Buddy Guy, and Junior Wells. In 1978, The Blues Brothers made their television debut and performed on Saturday Night Live. 
+				Dan Aykroyd spoke of the band’s origins. “The Blues Brothers look came from a lot of things. One was an old John Lee Hooker 
+				album cover. He had the hat and the shades. We also had this philosophy that these characters were rebels. They were bad guys. 
+				They weren’t morally evil or spiritually bad; they were just bad in terms of the law, and they had to play it straight, hence 
+				the whole Lenny Bruce thing of going onstage wearing a thin tie and looking like an FBI agent, just to present that 
+				conventional, legitimate look to the straight people out there. When John did the Shelley Bayliss character on SNL – that 
+				1950’s hipster comedian – that was when the suit and the glasses first appeared. And technically, the first Blues Brothers 
+				number ever was the “King Bee” song done in the bee costumes.” Paul Shaffer was instrumental in helping Belushi and Aykroyd 
+				find the right bandmates. “Before we hired Matt Murphy, I got John to promise that we’d find a rhythm guitar player, too. Blues 
+				guitarists aren’t always good rhythm players.” In 1978, they recorded Briefcase Full of Blues. The album was recorded live while 
+				they opened for Steve Martin at Los Angeles’ Universal Amphitheater. The album went number one on the Billboard 200. In June 1980, 
+				The Blues Brothers film was released along with the soundtrack. The film was a success and grossed over one hundred and fifteen 
+				million dollars worldwide. The soundtrack and the band’s second album, The Blues Brothers: Original Soundtrack Recording, had a Billboard 
+				Top 20 hit with “Gimme Some Lovin’.” The band’s third album, Made in America, was recorded live only a few months after the film’s 
+				release again at Los Angeles’ Universal Amphitheater. The album made the Billboard top 50. Belushi struggled with addiction throughout his 
+				life and died March 5th, 1982 in Los Angeles from a drug overdose. He was thirty-three. He is buried at Abel’s Hill Cemetery in Chilmark, Massachusetts 
+				on Martha’s Vineyard. John Belushi has a cenotaph, memorial marker, next to his mother’s grave at Elmwood Cemetery and Mausoleum in River Grove, 
+				Illinois. It is said that he was at one time buried at Elmwood Cemetery and Mausoleum.
+				</p>
+				<h1 style="text-align: center">Grave Tour Complete</h1>
+			</div>
+			<div id="center">	
+				<a href="../index.html" id="end" class="button">Homepage</a>
+			</div>
+			<script>
+				const images = document.getElementsByTagName("img");
+				for (let image of images) {
+					image.addEventListener("load", fadeInImage);
+					image.style.opacity = "0";
+				}
+				document.getElementById("end").onclick=function() {
+					tourComplete();
+				}
+			</script>
+		</main>
+	</body>
+</html>

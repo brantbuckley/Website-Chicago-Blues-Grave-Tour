@@ -1,0 +1,56 @@
+body {
+	background-color: black;
+	font-family: papyrus; 
+}
+
+h1 {
+	text-align: center; 
+	color: white; 
+	font-size: 36px; 
+}
+
+img {
+	width: 93%;
+	height: auto;
+	margin: auto;
+	display: block;
+}
+
+p {
+	font-family: Serif; "Times New Roman", Verdana, WildWest;
+	color: white;
+	font-size: 22px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.button {
+	background-color: purple;
+	border: solid;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 23px;
+	cursor: pointer;
+	margin: auto;
+}
+
+#center {
+	text-align: center;
+}
+
+a:active {
+  background-color: black;
+}
+
+@media all and (min-width: 1000px) {
+	img {
+		width: 65%;
+		height: auto;
+		margin: auto;
+		display: block;
+	}
+}
+
